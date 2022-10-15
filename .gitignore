@@ -1,1 +1,4 @@
 *.lock
+*pyc
+__pycache__
+.idea
