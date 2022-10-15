@@ -1,14 +1,9 @@
-from typing import Dict
-
-from pydantic import BaseModel, StrictStr, root_validator, ValidationError
+from pydantic import BaseModel, StrictInt
 
 
-class InputFullName(BaseModel):
-    name: StrictStr
-    surname: StrictStr
+class InputForTakeAward(BaseModel):
+    student_id: StrictInt
 
     class Config:
         extra = "forbid"
-
-
 

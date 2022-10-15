@@ -1,0 +1,2 @@
+class StudentNotFound(Exception):
+    pass
